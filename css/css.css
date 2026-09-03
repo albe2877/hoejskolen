@@ -1,0 +1,94 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Remove whitespace on top of certain browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* shift+option: 8/9 = {} */
+
+/* fonte og skrifttyper ligger øverst */
+
+/* farvepalette */
+:root {
+  --tekst: #200605;
+  --transparentblaa: #b8e0e9ca; 
+  --pang: #c42f0f;
+--kontrast1: #fbb26d;
+--kontrast2: #fee9b4; 
+--kontrast3: #e2e7e3; 
+--kontrast4: #032c62; 
+--kontrast5: #2794bb;
+}
+
+
+
+body {
+  background-color: #b8e0e9;
+  color: var(--kontrast4);
+}
+  
+img {
+  width:100%;
+}
+  
+h1,h2{
+  text-align: center;
+}
+
+p{
+  padding:23px;
+}
+
+/* styles til navigation */
+/* gør navigationen til en topklistret navigation */
+nav {
+  position: sticky;
+  top: 0;
+  color: var(--kontrast5); /* color: skriftens farve */
+  background-color: var(--tekst); /* background-color: baggrundsfarve */
+}
+
+nav a {
+  color: var(--kontrast5);
+}
+
+/* z-index: 1; gør at navigationen ligger ovenpå alt andet indhold */
+
+
+/* gør logoet mindre */
+nav a img {
+  height: 99px;
+  width: auto;
+}
+
+
+.flexdemo {
+display: flex;
+padding: 10px;
+
+}
+  
+
+/* Define variables in the :root */
+ 
+
+/* Use your variables on elements along these lines */
+/*
+:root {
+  --contrast: lime;
+  --backgr: #000;
+}
+
+--- You can use the variables like this ---
+
+ main {
+   color: var(--contrast);
+   background-color: var(--backgr);
+ }
+*/
