@@ -1,0 +1,25 @@
+/**
+ * fil: designsystem.css
+ * formål: styler selve designsystemet
+ **/
+
+ .farvebox {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    border: 5px solid black;
+}
+
+/* farvepaletten */
+.farve1 {
+    background-color: var(--kontrast5);
+}
+.farve2 {
+    background-color: var(--kontrast4);
+}
+.farve3 {
+    background-color: var(--kontrast3);
+}
+.farve4 {
+    background-color: var(--kontrast2);
+}
